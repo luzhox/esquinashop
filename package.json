@@ -10,8 +10,16 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.1.2",
+    "@react-navigation/native": "^7.1.6",
+    "@tamagui/config": "^1.126.4",
+    "@tamagui/core": "^1.126.4",
     "react": "19.0.0",
-    "react-native": "0.79.1"
+    "react-native": "0.79.1",
+    "react-native-permissions": "^5.4.0",
+    "react-native-safe-area-context": "^5.4.0",
+    "tamagui": "^1.126.4",
+    "use-context-selector": "^2.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
@@ -24,6 +32,7 @@
     "@react-native/eslint-config": "0.79.1",
     "@react-native/metro-config": "0.79.1",
     "@react-native/typescript-config": "0.79.1",
+    "@tamagui/types": "^1.126.4",
     "@types/jest": "^29.5.13",
     "@types/react": "^19.0.0",
     "@types/react-test-renderer": "^19.0.0",
